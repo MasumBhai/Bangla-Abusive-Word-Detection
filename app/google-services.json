@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "190451767087",
+    "firebase_url": "https://bangla-abusive-word-detection-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "bangla-abusive-word-detection",
+    "storage_bucket": "bangla-abusive-word-detection.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190451767087:android:9d31273660fd040ec533da",
+        "android_client_info": {
+          "package_name": "child.monitor.system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190451767087-2ljcvfl1e571kb8ff3qt38cb5ho53gms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs7U4MF_TxEd_oYiI12FBm4EUB1gQKFao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190451767087-2ljcvfl1e571kb8ff3qt38cb5ho53gms.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
