@@ -6,12 +6,12 @@ plugins {
 
 android {
 
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
-        applicationId "child.monitor.system"
+        applicationId "com.example.banglaabusive"
         minSdk 26
-        targetSdk 32
+        targetSdk 33
         multiDexEnabled true
         versionCode 1
         versionName "1.0"
@@ -33,23 +33,27 @@ android {
         viewBinding true
     }
     buildToolsVersion '32.1.0 rc1'
+    namespace 'com.example.banglaabusive'
 }
 
 dependencies {
 
-    implementation 'androidx.appcompat:appcompat:1.4.1'
-    implementation 'com.google.android.material:material:1.6.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation 'androidx.appcompat:appcompat:1.4.2'
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'com.google.android.gms:play-services-maps:18.0.2'
-    implementation 'com.google.firebase:firebase-core:17.2.3'
-    implementation 'com.google.firebase:firebase-storage-ktx:19.1.1'
-    implementation 'com.google.firebase:firebase-database-ktx:19.2.1'
-    implementation 'com.google.firebase:firebase-messaging:20.1.2'
-    implementation 'com.google.firebase:firebase-firestore:21.4.0'
-    implementation 'com.google.firebase:firebase-database:20.0.5'
     implementation 'com.android.support:multidex:1.0.3'
 
+    implementation 'com.google.firebase:firebase-core:21.0.0'
+    implementation 'com.google.firebase:firebase-storage-ktx:20.0.1'
+    implementation 'com.google.firebase:firebase-database-ktx:20.0.5'
+    implementation 'com.google.firebase:firebase-messaging:23.0.6'
+    implementation 'com.google.firebase:firebase-firestore:24.2.0'
+    implementation 'com.google.firebase:firebase-database:20.0.5'
 
+
+    implementation platform('com.google.firebase:firebase-bom:30.2.0')
+    implementation 'com.google.firebase:firebase-analytics'
     implementation 'com.google.firebase:firebase-auth:21.0.6'
     implementation 'com.google.firebase:firebase-appcheck-debug:16.0.0'
     implementation 'com.google.firebase:firebase-appcheck-safetynet:16.0.0'

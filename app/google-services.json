@@ -8,17 +8,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:190451767087:android:9d31273660fd040ec533da",
+        "mobilesdk_app_id": "1:190451767087:android:26399221fa2e59d1c533da",
         "android_client_info": {
-          "package_name": "child.monitor.system"
+          "package_name": "com.example.banglaabusive"
         }
       },
       "oauth_client": [
         {
-          "client_id": "190451767087-7lam47k80eg9a85p6itatmv31kig40b2.apps.googleusercontent.com",
+          "client_id": "190451767087-9rvneitnhumnb112p473uvmhbu9c7s3l.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "child.monitor.system",
+            "package_name": "com.example.banglaabusive",
             "certificate_hash": "267568362d39a4350f03f0af899ae7e589642a81"
           }
         },
