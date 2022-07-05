@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "190451767087-7lam47k80eg9a85p6itatmv31kig40b2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "child.monitor.system",
+            "certificate_hash": "267568362d39a4350f03f0af899ae7e589642a81"
+          }
+        },
+        {
           "client_id": "190451767087-2ljcvfl1e571kb8ff3qt38cb5ho53gms.apps.googleusercontent.com",
           "client_type": 3
         }
