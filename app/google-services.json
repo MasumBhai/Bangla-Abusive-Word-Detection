@@ -21,10 +21,6 @@
             "package_name": "com.example.banglaabusive",
             "certificate_hash": "267568362d39a4350f03f0af899ae7e589642a81"
           }
-        },
-        {
-          "client_id": "190451767087-2ljcvfl1e571kb8ff3qt38cb5ho53gms.apps.googleusercontent.com",
-          "client_type": 3
         }
       ],
       "api_key": [
@@ -36,8 +32,8 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "190451767087-2ljcvfl1e571kb8ff3qt38cb5ho53gms.apps.googleusercontent.com",
-              "client_type": 3
+              "client_id": "190451767087-9rvneitnhumnb112p473uvmhbu9c7s3l.apps.googleusercontent.com",
+              "client_type": 1
             }
           ]
         }

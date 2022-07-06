@@ -2,33 +2,25 @@ package com.example.banglaabusive;
 
 import static android.content.ContentValues.TAG;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.FirebaseApp;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.firebase.FirebaseException;
-import com.google.firebase.appcheck.FirebaseAppCheck;
-import com.google.firebase.appcheck.safetynet.SafetyNetAppCheckProviderFactory;
-import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.PhoneAuthCredential;
-import com.google.firebase.auth.PhoneAuthProvider;
 import com.google.firebase.auth.PhoneAuthOptions;
-import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.auth.PhoneAuthProvider;
 
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;
@@ -57,10 +49,10 @@ public class SignIn extends AppCompatActivity {
             onRestoreInstanceState(savedInstanceState);
         }
 
-        FirebaseApp.initializeApp(getApplicationContext());
-        FirebaseAppCheck firebaseAppCheck = FirebaseAppCheck.getInstance();
-        firebaseAppCheck.installAppCheckProviderFactory(
-                SafetyNetAppCheckProviderFactory.getInstance());
+//        FirebaseApp.initializeApp(getApplicationContext());
+//        FirebaseAppCheck firebaseAppCheck = FirebaseAppCheck.getInstance();
+//        firebaseAppCheck.installAppCheckProviderFactory(
+//                SafetyNetAppCheckProviderFactory.getInstance());
 
         mAuth = FirebaseAuth.getInstance();
 
